@@ -1,1 +1,1 @@
-# portfolio
+# jihoo portfolio
