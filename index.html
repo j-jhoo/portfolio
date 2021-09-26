@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개페이지</title>
+    
+    <!-- 외부 스타일시트 연결 -->
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css"></style>
+    
+    <!-- 외부 스크립트 연결 -->
+    <script src="script.js" defer></script>
+   
+     <!-- aos -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- 폰트어썸 -->
+    <script src="https://kit.fontawesome.com/684e97b7f2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<!-- body start -->
+<body>
+
+   <!-- header -->
+   <header>
+
+      <nav id="nav">
+        <div id="navbar">
+          <div onclick="location.href='#home'">
+            <h3>JIHOO'S PAGE</h3>
+          </div>
+          
+          <div class="navigation-bar">
+              <div onclick="location.href='#1'">
+                <h3>ABOUT ME</h3>
+              </div>
+              <div onclick="location.href='#2'">
+                <h3>FAVORITE</h3>
+              </div>
+              <div onclick="location.href='#3'">
+                <h3>PORTFOLIO</h3>
+              </div>
+              <div onclick="location.href='#4'">
+                <h3>SKILLS</h3>
+              </div>
+              <div onclick="location.href='#5'">
+                <h3>CONTACT</h3>
+              </div>
+          </div>
+
+        </div>
+      </nav>
+
+   </header>
+
+   <!-- main -->
+   <main id="home">
+    <section class="home-section">
+      <ul class="list">
+        <li>
+            <input type="checkbox" />
+            <div>J</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>U</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>N</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>G</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>J</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>I</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>H</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>O</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>O</div>
+          </li>
+        </ul>
+        <br>
+        <ul class="list">
+          <li>
+            <input type="checkbox" />
+            <div>?</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>H</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>O</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>M</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>P</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>A</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>G</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>E</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div>!</div>
+          </li>
+        </ul>
+
+        <section class="home-section2 circular-text">
+    
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+            <defs>
+              <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle_top">
+                <animateTransform attributeName="transform" begin="0s" dur="20s" type="rotate" from="0 250 250" to="360 250 250" repeatCount="indefinite" />
+              </path>
+              <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle_bottom">
+                <animateTransform attributeName="transform" begin="0s" dur="20s" type="rotate" from="195 250 250" to="555 250 250" repeatCount="indefinite" />
+              </path>
+            </defs>
+            <text dy="70" textLength="1220">
+              <!-- textLength (essentially the circumference of the circle) is used as an alternative to letter-spacing for Firefox, which currently doesn't support letter-spacing for SVG -->
+              <textPath xlink:href="#textcircle_top">Hello!! Developer</textPath>
+              <textPath xlink:href="#textcircle_bottom">J-jihoo, Thanks!!</textPath>
+            </text>
+          </svg>
+    
+      </section>
+          
+    </section>
+   </main>
+
+   <!-- first article -> about me -->
+   <article class="a-one" id="1">
+      <section>
+        <div data-aos="fade-down" data-aos-duration="1000">
+            <h2>About Me</h2>
+        </div>
+        <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="250">
+            안녕하세요! 저는 25살 <b>개발자</b>를 꿈꾸는 <b>정지후</b> 입니다. <br>
+            음악을 전공했었고, 될때까지 <b>끊임없이 연습하는 습관이</b> <br>
+            개발 공부를 할때도 <b>안되더라도 포기하지 않고,</b> <br>끝까지 공부할 수 있는 저의 <b>장점</b>이라고 생각합니다.<br>
+            UI/UX를 배우면서 항상 <b>USER의 관점에서 생각</b>하고<br>
+            토끼보다는 <b>🐢거북이처럼 조금 느리더라도 한발, 한발 <br>꾸준히 앞으로 나아가는</b> 
+            개발자가 되고 싶습니다.<br> 
+            지금에 만족하고, 안주하지 않고 <br><b>항상 발전해나가는 개발자</b>가 되겠습니다!
+        </p>
+      </section>
+
+      <section data-aos="fade-right" data-aos-duration="1100" data-aos-delay="350">
+        
+      </section>
+   </article>
+
+  <!-- article two favorite -->
+  <article class="a-two" id="2">
+
+      <section>
+        <div data-aos="fade-down" data-aos-duration="1000">
+            <h2>FAVORITE</h2>
+        </div> 
+      </section>
+
+      <div class="wrap">
+        <div class="tile" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="50"> 
+          <img src='https://t1.daumcdn.net/cfile/tistory/99CE444F5C90AAF111'/>
+          <div class="text">
+          <h1>MUSIC.</h1>
+          <h2 class="animate-text">나만의 쉬는시간.</h2>
+          <p class="animate-text2">노래를 들으면서 씐나게~~, 슬프게ㅠㅠ, 감성에 빠지기도 한다. </p>
+        <div class="dots">
+            <a>
+              <span></span>
+              <span></span>
+              <span></span>
+            </a> 
+          </div>
+          </div>
+        </div>
+        
+        
+        <div class="tile" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="400"> 
+          <img src='https://img.etnews.com/photonews/2105/1410551_20210506101604_121_0001.jpg'/>
+          <div class="text">
+          <h1>TRAVEL.</h1>
+          <h2 class="animate-text">세계 곳곳을 구경하다.</h2>
+          <p class="animate-text2">여러나라, 여러사람들, 여러 문화들을 보고 경험하면서 
+            나의 세상도 키워나가는 것을 좋아한다. </p>
+        <div class="dots">
+          <a>
+            <span></span>
+            <span></span>
+            <span></span>
+          </a> 
+          </div>
+          </div>
+        </div>
+          
+          <div class="tile" data-aos="fade-down" data-aos-duration="1400" data-aos-delay="700"> 
+          <img src='https://cdn.dtnews24.com/news/photo/201612/86720_409525.jpg'/>
+          <div class="text">
+          <h1>FOOD TOUR.</h1>
+          <h2 class="animate-text">맛집탐방은 나의 행복.</h2>
+          <p class="animate-text2">여러 맛집들을 다니면서 내 입도 즐겁고, 내 정신도 즐겁다. </p>
+        <div class="dots">
+          <a>
+            <span></span>
+            <span></span>
+            <span></span>
+          </a> 
+          </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+
+  </article>
+
+  <!-- article three portfolio -->
+  <article class="a-three" id="3">
+      <section>
+        <div data-aos="fade-down" data-aos-duration="1000">
+            <h2>PORTFOLIO</h2>
+        </div> 
+      </section>
+
+      <!-- Slider main container -->
+
+      <section class="project">
+        <div class="tab_content">
+          <input type="radio" name="tabmenu" id="tab01" checked>
+          <label for="tab01" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="40">WEBSITE</label>
+          <input type="radio" name="tabmenu" id="tab02">
+          <label for="tab02" data-aos="fade-down" data-aos-duration="1100" data-aos-delay="54">html + css responsive</label>
+          <input type="radio" name="tabmenu" id="tab03">
+          <label for="tab03" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="58">html + css </label>
+          <input type="radio" name="tabmenu" id="tab04">
+          <label for="tab04" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="60">projects</label>
+
+          <div class="conbox con1">
+
+            <div class="imgBox">
+              <div class="boxes">
+
+                  <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50">
+                    <a href="http://www.jjihoo.com/hundai/index.html" target="_blank">
+                      <p class="p-one">HUNDAI</p>
+                      <p class="p-two">Main Page</p>
+                      <p class="p-last">✔️ click</p>
+                    </a>
+                  </div>
+                  <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50">
+                    <a href="http://www.jjihoo.com/hundai/sub.html" target="_blank">
+                    <p class="p-one">HUNDAI</p>
+                    <p class="p-two">Sub Page</p>
+                    <p class="p-last">✔️ click</p>
+                  </a>
+                  </div>
+                  <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50">
+                    <a href="http://www.jjihoo.com/hundai/phurchase.html" target="_blank">
+                    <p class="p-one">HUNDAI</p>
+                    <p class="p-two">Purchase Page</p>
+                    <p class="p-last">✔️ click</p>
+                  </a>
+                  </div>
+                  <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50">
+                    <a href="http://www.jjihoo.com/hundai/qna.html" target="_blank">
+                    <p class="p-one">HUNDAI</p>
+                    <p class="p-two">QnA Page</p>
+                    <p class="p-last">✔️ click</p>
+                  </a>
+                  </div>
+                  </div>
+                  <div class="boxes2">
+                  <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="100">
+                    <a href="http://www.jjihoo.com/hundai/login.html" target="_blank">
+                    <p class="p-one">HUNDAI</p>
+                    <p class="p-two">Login Page</p>
+                    <p class="p-last">✔️ click</p>
+                  </a>
+                  </div>
+                  <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="100">
+                    <a href="http://www.jjihoo.com/hundai/find.html" target="_blank">
+                    <p class="p-one">HUNDAI</p>
+                    <p class="p-two">Find Page</p>
+                    <p class="p-last">✔️ click</p>
+                  </a>
+                  </div>
+                  <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="100">
+                    <a href="http://www.jjihoo.com/hundai/join.html" target="_blank">
+                    <p class="p-one">HUNDAI</p>
+                    <p class="p-two">Join Page</p>
+                    <p class="p-last">✔️ click</p>
+                  </a>
+                  </div>
+                </div>
+                <div class="boxes3">
+                  <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="150">
+                    <a href="http://www.jjihoo.com/yunjac/index.html" target="_blank">
+                    <p class="p-one">YUNJAC</p>
+                    <p class="p-two">Main Page</p>
+                    <p class="p-last">✔️ click</p>
+                  </a>
+                  </div>
+                  <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="150">
+                    <a href="http://jjihoo.com/yunjac/sub.html" target="_blank">
+                    <p class="p-one">YUNJAC</p>
+                    <p class="p-two">Product Page</p>
+                    <p class="p-last">✔️ click</p>
+                  </a>
+                  </div>
+                  <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="150">
+                    <a href="http://www.jjihoo.com/yunjac/purchase.html" target="_blank">
+                    <p class="p-one">YUNJAC</p>
+                    <p class="p-two">Purchase Page</p>
+                    <p class="p-last">✔️ click</p>
+                  </a>
+                  </div>
+
+                </div>
+              </div>
+        </div>
+
+        <div class="conbox con2">
+            <div class="imgBox">
+              <div class="boxes">
+
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50">
+                  <a href="http://jjihoo.com/responsive/hansot/index.html" target="_blank">
+                  <p class="p-one">HANSOT</p>
+                  <p class="p-two">Main page</p>
+                  <p class="p-last">✔️ click</p>
+                </a>
+                </div>
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="100">
+                  <a href="http://jjihoo.com/responsive/galleryhundai/index.html" target="_blank">
+                  <p class="p-one">GALLERY</p>
+                  <p class="p-two">Main page</p>
+                  <p class="p-last">✔️ click</p>
+                </a>
+                </div>
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="150">
+                  <a href="http://jjihoo.com/responsive/godivapage/index.html" target="_blank">
+                  <p class="p-one">GODIVA</p>
+                  <p class="p-two">Main page</p>
+                  <p class="p-last">✔️ click</p>
+                </a>
+                </div>
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="200">
+                  <a href="http://jjihoo.com/responsive/hersheypage/index.html" target="_blank">
+                  <p class="p-one">HERSHEY</p>
+                  <p class="p-two">Main page</p>
+                  <p class="p-last">✔️ click</p>
+                </a>
+                </div>
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="250">
+                  <a href="http://jjihoo.com/responsive/websitepage/index.html" target="_blank">
+                  <p class="p-one">WEBSITE</p>
+                  <p class="p-two">Main page</p>
+                  <p class="p-last">✔️ click</p>
+                </a>
+                </div>
+
+               </div>
+            </div>
+        </div>
+
+        <div class="conbox con3">
+            <div class="imgBox">
+              <div class="boxes">
+
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50">
+                  <a href="http://jjihoo.com/purecss/chanelpage/index.html" target="_blank">
+                    <p class="p-one">CHANEL</p>
+                    <p class="p-two">Main Page</p>
+                    <p class="p-last">✔️ click</p>
+                  </a>
+                </div>
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50">
+                  <a href="http://jjihoo.com/purecss/kcc/index.html" target="_blank">
+                  <p class="p-one">KCC</p>
+                  <p class="p-two">Main Page</p>
+                  <p class="p-last">✔️ click</p>
+                </a>
+                </div>
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50">
+                  <a href="http://jjihoo.com/purecss/lanvinpage/index.html" target="_blank">
+                  <p class="p-one">LANVIN</p>
+                  <p class="p-two">Main Page</p>
+                  <p class="p-last">✔️ click</p>
+                </a>
+                </div>
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50">
+                  <a href="http://jjihoo.com/purecss/mobilepage/index.html" target="_blank">
+                  <p class="p-one">MOBILE</p>
+                  <p class="p-two">Main Page</p>
+                  <p class="p-last">✔️ click</p>
+                </a>
+                </div>
+                </div>
+                <div class="boxes2">
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="150">
+                  <a href="http://jjihoo.com/purecss/pizza%20page/index.html" target="_blank">
+                  <p class="p-one">PIZZA</p>
+                  <p class="p-two">Main Page</p>
+                  <p class="p-last">✔️ click</p>
+                </a>
+                </div>
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="150">
+                  <a href="http://jjihoo.com/purecss/shakeshake/index.html" target="_blank">
+                  <p class="p-one">BURGER</p>
+                  <p class="p-two">Main Page</p>
+                  <p class="p-last">✔️ click</p>
+                </a>
+                </div>
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="150">
+                  <a href="http://jjihoo.com/purecss/subwaypage/index.html" target="_blank">
+                  <p class="p-one">SUBWAY</p>
+                  <p class="p-two">Main Page</p>
+                  <p class="p-last">✔️ click</p>
+                </a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="conbox con4">
+            <div class="imgBox">
+              <div class="boxes">
+
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50">
+                  <a>
+                  <p class="p-one">Coming soon!</p>
+                  <p class="p-two">Project</p>
+                  <p class="p-last">👩‍💻</p>
+                </a>
+                </div>
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50">
+                  <a>
+                  <p class="p-one">Coming soon!</p>
+                  <p class="p-two">Project</p>
+                  <p class="p-last">👩‍💻</p>
+                </a>
+                </div>
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50">
+                  <a>
+                  <p class="p-one">Coming soon!</p>
+                  <p class="p-two">Project</p>
+                  <p class="p-last">👩‍💻</p>
+                </a>
+                </div>
+                <div class="a3-tab" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="50"> 
+                  <a>
+                  <p class="p-one">Coming soon!</p>
+                  <p class="p-two">Project</p>
+                  <p class="p-last">👩‍💻</p>
+                </a>
+                </div>
+                <div class="a3-tab">
+                  <a>
+                  <p class="p-one">Coming soon!</p>
+                  <p class="p-two">Project</p>
+                  <p class="p-last">👩‍💻</p>
+                </a>
+                </div>
+
+               </div>
+            </div>
+        </div>
+
+        
+      </section>
+
+         <!-- projects area -->
+  </article>
+
+  <!-- article - skills -->
+  <article class="skills" id="4">
+    <section>
+      <div data-aos="fade-down" data-aos-duration="1000">
+          <h2>SKILLS</h2>
+      </div> 
+    </section>
+
+    <section class="skill-list">
+      <ul id="skill">
+        <h2 class="skill-text1" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">✓ Design</h2>
+        <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200"><span class="bar Photoshop" ></span><h3>Photoshop</h3></li>
+        <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200"><span class="bar Illustrator"></span><h3>Illustrator </h3></li>
+        <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200"><span class="bar Powerpoint"></span><h3>Powerpoint</h3></li>
+        <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200"><span class="bar ui"></span><h3>UI/UX</h3></li>
+      </ul>
+
+      <ul id="skill">
+        <h2 class="skill-text1" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">✓ Development</h2>
+          <li data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200"><span class="bar html"></span><h3>Html</h3></li>
+          <li data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200"><span class="bar css"></span><h3>Css</h3></li>
+          <li data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200"><span class="bar jquery"></span><h3>Jquery</h3></li>
+          <li data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200"><span class="bar javscript"></span><h3>Javscript</h3></li>
+      </ul>
+    </section>
+
+    
+  </article>
+
+  <!-- article four -->
+  <!-- contact me -->
+  <article class="a-four" id="5">
+
+    <section>
+      <div data-aos="fade-down" data-aos-duration="1000">
+          <h2>CONTACT</h2>
+      </div> 
+    </section>
+
+    <div data-aos="fade-down" data-aos-duration="1100">
+
+        <div>
+            <section onclick="location.href='tel:01096641906'" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-delay="80">
+                <div>
+                    <img src="https://cdn0.iconfinder.com/data/icons/picons-social/57/64-viber-2-1024.png" class="hovers">
+                  
+                </div>
+
+                <p><span>전화번호</span><br>010-2459-8206</p>
+            </section>
+
+            <section onclick="location.href='https://github.com/j-jhoo'" target="_blank" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="160">
+                <div>
+                    <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-512.png" class="hovers">
+                </div>
+
+                <p><span>GITHUB</span> <br>https://github.com/j-jhoo</p>
+            </section>
+
+            <section onclick="location.href='mailto:loveadsadf1976@gmail.com'" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-duration="1500" data-aos-delay="180">
+                <div>
+                    <img src="https://cdn1.iconfinder.com/data/icons/common-version-3-0/1024/navigation-512.png" class="hovers">
+                </div>
+
+                <p><span>E-mail</span> <br>loveadsadf1976@gmail.com</p>
+            </section>
+
+            <section onclick="location.href='https://velog.io/@j-jhoo'" target="_blank" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-duration="2000" data-aos-delay="200">
+                <div>
+                    <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/53-vimeo-1024.png" class="hovers">
+                </div>
+
+                <p><span>Velog</span> <br>https://velog.io/@j-jhoo</p>
+            </section>
+        </div>
+
+
+    </div>
+
+</article>
+
+<!-- footer -->
+<footer>
+  <li>
+    <a href="mailto:yoosaemsol@gmail.com" target="_top"
+      >📩 &nbsp;Mail me : loveadsadf1976@gmail.com</a
+    >
+  </li>
+    <p>Copyright © 2021 &nbsp;|&nbsp; All rights reserved. &nbsp;|&nbsp; JUNG JIHOO</p>
+</footer>
+
+
+   <!-- 상대경로 -->
+   <script>
+     AOS.init();
+   </script>
+</body>
+</html>
