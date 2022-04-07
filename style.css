@@ -469,14 +469,14 @@ header {
 
 .home-section2 svg {
   position: absolute;
-  height: 950px;
+  height: 250px;
 }
 .home-section svg text {
-  font-size: 28px;
+  font-size: 20px;
   font-family: Helvetica Neue, sans-serif;
   font-weight: 350;
   text-transform: uppercase;
-  letter-spacing: 17px;
+  letter-spacing: 0px;
   fill: rgb(255, 255, 255);
 }
 

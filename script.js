@@ -26,7 +26,7 @@ const pointOnCircle = (radius, angle = 0) => {
   }
 }
 
-const radius = 80; //반지름
+const radius = 50; //반지름
 const diameter = radius * 2;    //지름
 
 
